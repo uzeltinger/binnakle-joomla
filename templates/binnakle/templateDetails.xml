@@ -33,7 +33,8 @@
 		<positions>
 				<!-- Template specific Module Positions -->
 				<position>navmenu</position>	
-				<position>topsearch</position>	
+				<position>topcarousel</position>		
+				<position>topsearch</position>
 				<position>topfeatured</position>	
 				<position>right</position>
 				<position>footer</position>			

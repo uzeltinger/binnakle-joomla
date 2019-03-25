@@ -32,6 +32,7 @@ a {
 .cabecera {    
     width: 100%;
     display: inline-block;
+    min-height: 50px;
 }
 @media (max-width: 767px){
     .cabecera {   
@@ -42,7 +43,7 @@ a {
     }
 }
 .flag {    
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 10px;
     float: left;
 }
@@ -71,7 +72,9 @@ a {
     margin-bottom: 10px;
 }
 .top-link-contacto a {
-    color: #999999;
+    color: #000;
+    padding: 5px;
+    line-height: 25px;
 }
 .link-juegos-mobile .link-juegos {
     display: flex;
@@ -253,8 +256,11 @@ header .container-menu-all {
 .dropdownover:hover + ul.dropdown-menu li a {
     color: #fff;
 }
+.dropdownover {
+    height: 25px;
+}
 .dropdownover img {
-    width: 24px;
+    width: 25px;
 }
 
 .nav-item.item-111 ul.dropdown-menu:hover{
@@ -267,6 +273,16 @@ section.perfil-carousel .slide-fondo {
     background-position-y: top;
 }
 
+@media(max-width: 767px){
+    .slide-fondo_desktop {
+        display: none;
+    }
+}
+@media(min-width: 768px){
+    .slide-fondo_mobile {
+        display: none;
+    }
+}
 .slide-fondo-1 {
     background: url('../images/slide/2-1920.jpg');
 }
@@ -323,6 +339,14 @@ section.resultados {
 .resultados .resultados-list .resultado .imagen img{
     width: 150px;
 }
+.resultados-itemid-101 .resultados-list .resultado .imagen img{
+    width: 100px;
+}
+
+.resultados-itemid-101 .resultados-list .resultado .bajada {
+    font-weight: 600;
+}
+
 .resultados .resultados-list .resultado .bajada {
     margin-left: auto;
     margin-right: auto;
@@ -341,11 +365,13 @@ section.resultados {
     color: #212529;
     font-size: 2rem;
     text-align: center;
+    font-weight: 600;
 }
 .combina .combina-content {
     background: #EAE7C5;
     padding: 1rem;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 .image-combina-right {
     width: 90%;
@@ -469,6 +495,7 @@ section.home-footer h2.footer-title {
 }
 .home-footer .footer-button.green {
     background:#96AF28;
+    border-radius: 4px;
 }
 .home-footer .footer-button.orange {
     background:#D49A0A;

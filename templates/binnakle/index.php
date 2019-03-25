@@ -164,7 +164,11 @@ $doc->addCustomTag('<meta property="og:description" content="Juego Binnakle" />'
     </nav>
 </header>
 
-
+<?php if ($this->countModules('topcarousel')) : ?>
+<div class="position_topcarousel">
+		<jdoc:include type="modules" name="topcarousel" style="xhtml" />
+</div>
+<?php endif; ?>
 
 
 <?php if ($this->countModules('topsearch')) : ?>
@@ -252,46 +256,16 @@ $doc->addCustomTag('<meta property="og:description" content="Juego Binnakle" />'
 <?php if (JRequest::getInt('Itemid') == 101 ) : ?>
 
   
-  <section class="perfil-carousel">
-    <div id="carouselHome" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselHome" data-slide-to="i" class="active"></li>
-        <li data-target="#carouselHome" data-slide-to="i"></li>
-        <li data-target="#carouselHome" data-slide-to="i"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="slide-fondo slide-fondo-1"></div>
-          <div class="carousel-caption">
-            <p>La manera ideal de combinar una actividad lúdica con resultados relevantes para el negocio de la
-              organización</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="slide-fondo slide-fondo-2"></div>
-          <div class="carousel-caption">
-            <p>La manera ideal de combinar una actividad lúdica con resultados relevantes para el negocio de la
-              organización</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="slide-fondo slide-fondo-3"></div>
-          <div class="carousel-caption">
-            <p>La manera ideal de combinar una actividad lúdica con resultados relevantes para el negocio de la
-              organización</p>
-          </div>
+  
+  
+  <section class="resultados resultados-itemid-101">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-center binnakle-combina">LOS SERIOUS GAMES DE BINNAKLE AYUDAN A LAS EMPRESAS A:</h2>
         </div>
       </div>
-      <a class="carousel-control carousel-control-prev" href="#carouselHome" role="button" data-slide="prev">
-        <i class="fa fa-chevron-left"></i>
-      </a>
-      <a class="carousel-control carousel-control-next" href="#carouselHome" role="button" data-slide="next">
-        <i class="fa fa-chevron-right"></i>
-      </a>
     </div>
-  </section>
-
-  <section class="resultados">
     <div class="resultados-list">
       <div class="container">
         <div class="row">
@@ -355,7 +329,7 @@ $doc->addCustomTag('<meta property="og:description" content="Juego Binnakle" />'
     <div class="container combina-content">
       <div class="row">
         <div class="col-5 d-none d-md-block">
-          <p>Metodología del Proceso Creativo</p>
+          <p>Metodología Contrastada</p>
         </div>
         <div class="col-2 d-none d-md-block">
           <p class="text-center">+</p>
@@ -366,7 +340,7 @@ $doc->addCustomTag('<meta property="og:description" content="Juego Binnakle" />'
       </div>
       <div class="row">
         <div class="col-12 col-md-6">
-          <p class="text-center d-md-none">Metodología del Proceso Creativo</p>
+          <p class="text-center d-md-none">Metodología Contrastada</p>
           <img class="img-fluid" src="images/funnel-innovacion-binnakle.png">
         </div>
         <div class="col-12 col-md-6">
@@ -382,7 +356,7 @@ $doc->addCustomTag('<meta property="og:description" content="Juego Binnakle" />'
   
 
   <section class="home-footer">
-    <h2 class="text-center footer-title">NUESTROS SERIUS GAMES</h2>
+    <h2 class="text-center footer-title">NUESTROS SERIOUS GAMES</h2>
 
     <div class="footer-juegos-mobile d-lg-none">
       <div class="container-fluid container-juego-left">
