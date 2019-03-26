@@ -79,6 +79,8 @@
 
                             <button type="submit" class="btn btn-primary btn-azul float-right">ENVIAR</button>
 
+                            <div style="clear: both;"></div>
+
                         </div>
                     </div>
                 </div>

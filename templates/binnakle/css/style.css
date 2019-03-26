@@ -343,7 +343,7 @@ section.resultados {
     margin: auto;
 }
 .resultados .resultados-list .resultado .imagen img{
-    width: 150px;
+    width: 100px;
 }
 .resultados-itemid-101 .resultados-list .resultado .imagen img{
     width: 100px;
@@ -564,6 +564,9 @@ p.li-star {
     padding-left: 20px;
     background: url('../images/li-star.png') no-repeat center left;
 }
+section.quienes-somos {
+    margin-bottom: 2rem;
+}
 section.quienes-somos .resultados {
     width: 100%;
     margin-top: 4rem;
@@ -628,15 +631,19 @@ section.quienes-somos .btn-juego {
     white-space: normal;
     word-wrap: break-word;
 }
-.blue-rounded { 
+.blue-rounded {
     color: #fff;
     margin:0;
     padding: .8rem 1rem;
     background: #054675;
     border-radius: 25px;
-    width: max-content;
+    margin-bottom: 18px;
 }
-
+@media(min-width: 768px){
+    .blue-rounded {
+        width: max-content;
+    }
+}
 .slide-cliente {
     text-align: center;
 }
@@ -886,8 +893,9 @@ section.page.contacto {
 }
 .contacto input {
     border-radius: 1rem;
-    height: 3rem;
     font-size: 1.4rem;
+    height: 40px;
+    margin-bottom: 10px;
 }
 .form-group-campos-obligatorios {
     padding: 1.5rem 0;
@@ -915,7 +923,7 @@ section.page.contacto {
 }
 .checkbox-politica label {
     color: #95AAB6;
-    line-height: 34px;
+    line-height: 45px;
     padding-left: 10px;
 }
 .btn-azul {
@@ -983,18 +991,18 @@ section.page.binnakle-mission-0, section.page.binnakle-the-expedition {
 @media(max-width: 767px){
     .mission-0-header {
         background: url(../images/mission0/header-mission-0-fondo-left.jpg) no-repeat top left;
-        min-height: 600px;
+        min-height: 670px;
         background-size: auto;
         position: relative;
     }
-    .mission-0-header-opacity {
-        background: rgb(255, 255, 255, 0.7);
+    .mission-0-header-opacity, .the-expedition-header-opacity {
+        background: rgb(255, 255, 255, 0.9);
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-    }
+    }    
 }
 
 .binnakle-mission-0-logo {
@@ -1068,26 +1076,23 @@ section.page.binnakle-mission-0, section.page.binnakle-the-expedition {
 .mission0-carousel {
     margin-bottom: 0;
 }
-.mission0-carousel .slide-fondo {
-    background-position-x: center;
-    background-position-y: center;
-    background-repeat: no-repeat;
-}
+/*
 .mission0-carousel .slide-fondo {
     width: 100%;
-    height: 250px;
+    height: 300px;
     background-position-x: center;
     background-position-y: center;
+    background-size: cover;
 }
 
 .mission0-carousel .slide-fondo-1 {
-    background: url('../images/mission0/carousel/slide1-m0.jpg');
+    background-image: url('../images/mission0/carousel/slide1-m0.jpg');
 }
 .mission0-carousel .slide-fondo-2 {
-    background: url('../images/mission0/carousel/slide1-m0.jpg');
+    background-image: url('../images/mission0/carousel/slide1-m0.jpg');
 }
 .mission0-carousel .slide-fondo-3 {
-    background: url('../images/mission0/carousel/slide1-m0.jpg');
+    background-image: url('../images/mission0/carousel/slide1-m0.jpg');
 }
 
 @media(min-width: 768px){
@@ -1095,13 +1100,13 @@ section.page.binnakle-mission-0, section.page.binnakle-the-expedition {
         height: 333px;
     }
     .mission0-carousel .slide-fondo-1 {
-        background: url('../images/mission0/carousel/slide1-m0.jpg');
+        background-image: url('../images/mission0/carousel/slide1-m0.jpg');
     }
     .mission0-carousel .slide-fondo-2 {
-        background: url('../images/mission0/carousel/slide1-m0.jpg');
+        background-image: url('../images/mission0/carousel/slide1-m0.jpg');
     }
     .mission0-carousel .slide-fondo-3 {
-        background: url('../images/mission0/carousel/slide1-m0.jpg');
+        background-image: url('../images/mission0/carousel/slide1-m0.jpg');
     }
 }
 @media(min-width: 1280px){
@@ -1109,16 +1114,16 @@ section.page.binnakle-mission-0, section.page.binnakle-the-expedition {
         height: 500px;
     }
     .mission0-carousel .slide-fondo-1 {
-        background: url('../images/mission0/carousel/slide1-m0.jpg');
+        background-image: url('../images/mission0/carousel/slide1-m0.jpg');
     }
     .mission0-carousel .slide-fondo-2 {
-        background: url('../images/mission0/carousel/slide1-m0.jpg');
+        background-image: url('../images/mission0/carousel/slide1-m0.jpg');
     }
     .mission0-carousel .slide-fondo-3 {
-        background: url('../images/mission0/carousel/slide1-m0.jpg');
+        background-image: url('../images/mission0/carousel/slide1-m0.jpg');
     }
 }
-
+*/
 .mission0-carousel .carousel .carousel-indicators li{width:1rem;height:1rem;border-radius:50%;cursor:pointer}
 
 section.page.binnakle-mission-0-exploradora {
@@ -1207,6 +1212,7 @@ margin-bottom: 80px;
 .resultado {
     max-width: 300px;
     margin: 0 auto;
+    margin-top: 20px;
 }
 .resultado-header {
     background: url(../images/mission0/resultado-header.png) no-repeat top center;
@@ -1234,6 +1240,14 @@ margin-bottom: 80px;
     width: 100%;
     background-size: contain;
 }
+@media(max-width: 767px){
+    .the-expedition-header {
+        background: url(../images/the-expedition/header-the-expedition-fondo-left.jpg) no-repeat top left;
+        min-height: 500px;
+        background-size: auto;
+        position: relative;
+    }
+}
 .binnakle-the-expedition-logo {
     margin-top: 30px;
     text-align: center;
@@ -1254,7 +1268,7 @@ margin-bottom: 80px;
 }
 .binnakle-ayuda {
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     text-align: center;
 }
 .binnakle-ayuda h2 {
@@ -1332,4 +1346,18 @@ ul.serious-games-submenu li a:hover{
 }
 ul.serious-games-submenu li:hover {    
     background: #9CB71E;
+}
+.las-misiones {
+    padding-left: 15px;
+}
+.texto-mas-ancho {
+    overflow: visible;
+}
+.forzar-ancho {
+    width: 320px;
+}
+@media(min-width: 992px){
+    .forzar-ancho {
+        width: 992px;
+    }
 }
