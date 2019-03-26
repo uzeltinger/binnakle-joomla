@@ -137,10 +137,20 @@ $doc->addCustomTag('<meta property="og:description" content="Juego Binnakle" />'
                 <div class="nuestros-serius-games">NUESTROS <br>SERIOUS GAMES:</div>
                 <div class="fondo-diagonal"></div>
                 <div class="nuestro-serius-game">
-                    <a class="link-juego <?php if(JRequest::getInt('Itemid') == 108){ echo ' active';} ?>" href="./binnakle-the-expedition.html">BINNAKLE <br>THE EXPEDITION</a>
+                    <a class="link-juego link-juego-theexpedition <?php if(JRequest::getInt('Itemid') == 108){ echo ' active';} ?>" href="./binnakle-the-expedition.html">BINNAKLE <br>THE EXPEDITION</a>
+                    <ul class="serious-games-submenu dropdown-menu">
+                      <li class="nav-item item-112"><a href="#">Conocer</a></li>
+                      <li class="nav-item item-112"><a href="#">Comprar</a></li>
+                      <li class="nav-item item-112"><a href="#">Jugar</a></li>
+                    </ul>
                 </div>
                 <div class="nuestro-serius-game">
-                    <a class="link-juego link-juego-last <?php if(JRequest::getInt('Itemid') == 109){ echo ' active';} ?>" href="/binnakle-mission-0.html">BINNAKLE <br>MISSION 0</a>
+                    <a class="link-juego link-juego-last link-juego-theexpedition <?php if(JRequest::getInt('Itemid') == 109){ echo ' active';} ?>" href="/binnakle-mission-0.html">BINNAKLE <br>MISSION 0</a>
+                    <ul class="serious-games-submenu dropdown-menu">
+                      <li class="nav-item item-112"><a href="#">Conocer</a></li>
+                      <li class="nav-item item-112"><a href="#">Comprar</a></li>
+                      <li class="nav-item item-112"><a href="#">Jugar</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -494,7 +504,6 @@ $doc->addCustomTag('<meta property="og:description" content="Juego Binnakle" />'
             <h2 class="text-center">NUESTROS CLIENTES DICEN</h2>
           </div>
         </div>
-        <p><br></p>
         <div class="clientes-carousel">
           <div id="carouselClientesHome" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
@@ -729,7 +738,7 @@ $doc->addCustomTag('<meta property="og:description" content="Juego Binnakle" />'
 
 
 
-    <form action="contacto.html" method="GET">
+    <form action="contacto.html" method="GET" class="form-explicanos-tus-retos">
       <section class="page contacto">
        
           <div class="container">

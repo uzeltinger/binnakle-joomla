@@ -221,6 +221,7 @@ header .container-menu-all {
         height: 100%;
         line-height: 44px;
         padding: 0 15px;
+        position: relative;
     }
     .nav-item {
         margin-left: 10px;
@@ -365,7 +366,6 @@ section.resultados {
     color: #212529;
     font-size: 2rem;
     text-align: center;
-    font-weight: 600;
 }
 .combina .combina-content {
     background: #EAE7C5;
@@ -499,6 +499,7 @@ section.home-footer h2.footer-title {
 }
 .home-footer .footer-button.orange {
     background:#D49A0A;
+    border-radius: 4px;
 }
 .footer-info {
     margin-top: 3rem;
@@ -1286,6 +1287,37 @@ margin-bottom: 80px;
 }
 
 .explicanos-tus-retos {
-    margin-top: 8rem;
-    margin-bottom: 8rem;    
+    margin-top: 4rem;
+    margin-bottom: 2rem;   
+}
+.form-explicanos-tus-retos {
+    margin-bottom: 0;
+}
+a.link-juego-theexpedition {
+    display: block;
+}
+.link-juego-theexpedition:hover + ul.serious-games-submenu {
+    display: block;
+}
+ul.serious-games-submenu:hover {
+    display: block;
+}
+ul.serious-games-submenu {
+    background: #fff;
+    top: 95%;
+    margin-left: 15px;
+}
+ul.serious-games-submenu li {
+    margin-left: 0;
+}
+ul.serious-games-submenu li a{
+    padding-left: 10px;
+    display: block;
+}
+ul.serious-games-submenu li a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+ul.serious-games-submenu li:hover {    
+    background: #9CB71E;
 }
