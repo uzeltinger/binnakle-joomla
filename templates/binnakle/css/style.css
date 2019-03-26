@@ -391,11 +391,12 @@ section.resultados {
     margin-top: 8rem;
     margin-bottom: 8rem;
 }
-.col-md-1de10 {
-    -ms-flex: 0 0 10%;
-    flex: 0 0 10%;
-    max-width: 10%;
-
+@media (min-width: 767px){
+    .col-md-1de10 {
+        -ms-flex: 0 0 10%;
+        flex: 0 0 10%;
+        max-width: 10%;
+    }
 }
 @media (max-width: 767px){
     .combina p {
