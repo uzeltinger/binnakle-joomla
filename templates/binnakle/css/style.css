@@ -1365,3 +1365,10 @@ ul.serious-games-submenu li:hover {
         width: 992px;
     }
 }
+#quedicendenosotros {
+    margin-bottom: 20px;
+}
+.lista-noticias img {
+    max-width: 100%;
+    width: 100%;
+}

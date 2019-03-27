@@ -249,9 +249,13 @@ $doc->addCustomTag('<meta property="og:description" content="Juego Binnakle" />'
 	</div>
 <?php 	}?>
 
-</div>    <!--	container	-->    
+</div>    <!--	container	-->
 
-
+<?php if ($this->countModules('bottom-content')) : ?>
+  <div class="bottom-content">
+    <jdoc:include type="modules" name="bottom-content" style="raw" />
+  </div>
+<?php endif; ?>
 
 <?php if ($this->countModules('bottom')) { ?>
 	<div class="bottom">
@@ -492,7 +496,7 @@ $doc->addCustomTag('<meta property="og:description" content="Juego Binnakle" />'
     </div>
 
   </section>
-  
+
   
     <section class="clientes">
       <div class="container">
