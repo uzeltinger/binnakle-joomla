@@ -664,6 +664,9 @@ font-weight: 600;
 #carouselClientesHome {
     min-height: 400px;
 }
+#carouselClientesHome .carousel-inner {
+    min-height: 400px;
+}
 .clientes-carousel .carousel-control .fa{
     color: #000;
     font-weight: 600;

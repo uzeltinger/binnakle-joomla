@@ -492,10 +492,7 @@ $doc->addCustomTag('<meta property="og:description" content="Juego Binnakle" />'
     </div>
 
   </section>
-
-
-
-
+  
   
     <section class="clientes">
       <div class="container">
@@ -507,198 +504,11 @@ $doc->addCustomTag('<meta property="og:description" content="Juego Binnakle" />'
         <div class="clientes-carousel">
           <div id="carouselClientesHome" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="slide-cliente">
-                  <div class="icono">
-                    <img src="images/clientes/45-gas-natural-fenosa.jpg">
-                  </div>
-  
-                  <div class="comentario-detalle">
-                    "Binnakle es una herramienta dinámica que permite iniciar a un equipo en la práctica de la innovación,
-                    obteniendo planes de acción tangibles y prácticos"
-                  </div>
-                  <div class="comentario-firma">
-                    Teresa Manobens, Corporate Talent Management Director
-                  </div>
-                </div>
-              </div>
-  
-              <div class="carousel-item">
-                <div class="slide-cliente">
-                  <div class="icono">
-                    <img src="images/clientes/70-rb.jpg">
-                  </div>
-  
-                  <div class="comentario-detalle">
-                    "Utilizar Binnakle ha sido una nueva manera de enfocar las oportunidades y retos dentro de nuestra
-                    organización, generando unas dinámicas en el grupo de trabajo más potentes y rompedoras, con las que
-                    hemos encontrado nuevas soluciones que difícilmente habrían aflorado en una sesión tradicional; sin
-                    duda lo recomendaría para cualquier organización que quiera encontrar nuevas maneras de hacer las
-                    cosas"
-                  </div>
-                  <div class="comentario-firma">
-                    Xavier Bové, HR Advisor Compensation & Benefits
-                  </div>
-                </div>
-              </div>
-  
-  
-  
-              <div class="carousel-item">
-                <div class="slide-cliente">
-                  <div class="icono">
-                    <img src="images/clientes/55-ipsen.jpg">
-                  </div>
-  
-                  <div class="comentario-detalle">
-                    "Si ya éramos fans del proceso de innovación creativa, Binnakle nos ha
-                    seducido!!! Te permite pensar en innovación de forma estructurada. La
-                    gamificación hace eficiente el tiempo dedicado a buscar soluciones
-                    creativas, y el trabajo en equipo es fluido. La producción es máxima, un
-                    acierto!"
-                  </div>
-                  <div class="comentario-firma">
-                    Gloria Tapias, Directora de Relaciones Institucionales y RSC.
-                  </div>
-                </div>
-              </div>
-  
-              <div class="carousel-item">
-                <div class="slide-cliente">
-                  <div class="icono">
-                    <img src="images/clientes/41-fagor.jpg">
-                  </div>
-  
-                  <div class="comentario-detalle">
-                    "Es sorprendente lo que un juego de mesa es capaz de generar, no solo
-                    ideas originales sino un aterrizaje de las mismas. Todo muy estructurado,
-                    dinámico, divertido y ágil. No hay que subestimar la expresión “juego de mesa”,
-                    porque es algo muy serio y con un aporte de valor visible ya desde el minuto uno. Un
-                    gran acierto adquirir la maleta Binnakle, con todo el kit de gran calidad. La
-                    experiencia con Binnakle es única: los participantes lo recuerdan muy positivamente y
-                    quieren volver a repetir con nuevos retos"
-                  </div>
-                  <div class="comentario-firma">
-                    Yuri Noda, Organización e Innovación en Gestión
-                  </div>
-                </div>
-              </div>
-  
-              <div class="carousel-item">
-                <div class="slide-cliente">
-                  <div class="icono">
-                    <img src="images/clientes/92-manresa.jpg">
-                  </div>
-  
-                  <div class="comentario-detalle">
-                    "Binnakle ha constituido una metodología de trabajo que nos ha
-                    permitido disponer de un proceso guiado y pautado favorecedor e
-                    inspirador de creatividad e innovación. Además, realizándolo de forma
-                    colaborativa y contando con las ventajas de la gamificación, lo que aumenta en
-                    engagement de los profesionales en el proceso y en los propios resultados, y
-                    contando con la supervisión, ayuda y colaboración de formadores expertos. Gracias!"
-                  </div>
-                  <div class="comentario-firma">
-                    Óscar Dalmau, Responsable del Centro Internacional de Formación
-                  </div>
-                </div>
-              </div>
-  
-              <div class="carousel-item">
-                <div class="slide-cliente">
-                  <div class="icono">
-                    <img src="images/clientes/26-caixabank.jpg">
-                  </div>
-  
-                  <div class="comentario-detalle">
-                    "La experiencia de trabajar con Binnakle ha resultado un cambio
-                    de valor como metodología de resolución de retos. El equipo de
-                    Inteligencia Creativa nos ha facilitado la formación y el entreno de nuestro
-                    personal de forma que ahora estamos preparados para utilizar la herramienta
-                    dentro de nuestros procesos y en nuestra dinámica habitual de trabajo. Como
-                    herramienta es muy flexible, fácil y divertida de utilizar. Además el material es
-                    muy adecuado para trabajar durante las sesiones y para interiorizar el método.
-                    Recomiendo la herramienta con total garantía de éxito en todas aquellas
-                    empresas y equipos que necesiten realizar sesiones de resolución de problemas,
-                    de revisión de retos, de planes de acción, de innovación…..mucho más eficientes
-                    y orientadas al resultado"
-                  </div>
-                  <div class="comentario-firma">
-                    Laura Lluhen, Directora de Recursos Humanos
-                  </div>
-                </div>
-              </div>
-  
-              <div class="carousel-item">
-                <div class="slide-cliente">
-                  <div class="icono">
-                  </div>
-  
-                  <div class="comentario-detalle">
-                    "Uno de mis principales retos en los últimos dos años, ha sido el relanzamiento
-                    de una nueva línea de negocio, de especial importancia para el futuro de la
-                    compañía y donde es esencial contar con la alineación de objetivos y compromiso
-                    de todas las áreas. En este propósito, el contar con Binnakle y la colaboración de
-                    Inteligencia Creativa fue un éxito en la implicación y motivación de los equipos y
-                    nos ayudó a sumar fuerzas y así lograr duplicar el negocio en el primer año y
-                    conseguir mantener ritmos de crecimientos similares en los siguientes años"
-                  </div>
-                  <div class="comentario-firma">
-                    Mónica Vilalta, Directora de Desarrollo Negocio
-                  </div>
-                </div>
-              </div>
-  
-              <div class="carousel-item">
-                <div class="slide-cliente">
-                  <div class="icono">
-                    <img src="images/clientes/33-danone.jpg">
-                  </div>
-  
-                  <div class="comentario-detalle">
-                    "Desde Danone Waters buscábamos un proveedor que nos ayudara a
-                    poder trasladar las grandes líneas estratégicas de la Compañía a
-                    proyectos muy tangibles y al mismo tiempo breaktrough. Binnakle
-                    fue el partner escogido para co-construir junto a nuestros empleados qué
-                    proyectos innovadores trabajar en nuestra división a través de la gamificación.
-                    Seleccionamos empleados de todos los niveles y localizaciones (plantas, red de
-                    ventas y oficinas centrales) para la sesión. Gracias a la metodología tan robusta
-                    de Binnakle conseguimos imaginar ideas muy innovadoras y además es una
-                    herramienta buenísima para institucionalizar el pensamiento creativo dentro de
-                    nuestra organización. La sesión fue muy amena y contribuyó también a mejorar
-                    nuestro team building!"
-                  </div>
-                  <div class="comentario-firma">
-                    Mercé Griell,Human Resources Top Line Business Partner & Training
-                    Manager
-                  </div>
-                </div>
-              </div>
-  
-              <div class="carousel-item">
-                <div class="slide-cliente">
-                  <div class="icono">
-                    <img src="images/clientes/99-zambom.jpg">
-                  </div>
-  
-                  <div class="comentario-detalle">
-                    "Para Zambon, Binnakle fue muy útil ya que movilizamos a toda la
-                    compañía “jugando”, generamos multitud de ideas entre todos y
-                    algunas se llevaron a cabo. Generar ideas y competir es una buena combinación
-                    porque el espíritu competitivo es un acelerador para las ideas. Y el concepto
-                    cocodrilo para controlar a los “asesinos de ideas” ha calado en la organización"
-                  </div>
-                  <div class="comentario-firma">
-                    Santos Álvarez, Human Relation Anna Fusté<br>
-                    Ventas Miembros del Hub de Innovación de Zambon
-                  </div>
-                </div>
-              </div>
-  
-  
-  
-  
-  
+            <?php if ($this->countModules('nuestros_clientes_dicen')) : ?>
+              
+                  <jdoc:include type="modules" name="nuestros_clientes_dicen" style="raw" />
+              
+            <?php endif; ?>  
             </div>
             <a class="carousel-control carousel-control-prev" href="#carouselClientesHome" role="button"
               data-slide="prev">
@@ -714,10 +524,6 @@ $doc->addCustomTag('<meta property="og:description" content="Juego Binnakle" />'
       </div>
     </section>
 
-
-
-
-
     <section class="explicanos-tus-retos">
       <div class="container">
         <div class="row">
@@ -727,16 +533,6 @@ $doc->addCustomTag('<meta property="og:description" content="Juego Binnakle" />'
         </div>
         </div>
     </section>
-  
-
-
-
-
-
-
-
-
-
 
     <form action="contacto.html" method="GET" class="form-explicanos-tus-retos">
       <section class="page contacto">
