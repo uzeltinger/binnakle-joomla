@@ -650,7 +650,9 @@ $doc->addCustomTag('<meta property="og:description" content="Juego Binnakle" />'
     </div>
   </section>
 
-
+  <button onclick="topFunction()" id="goTop" class="goTop" title="Go to top">
+        <span class="fa fa-angle-up"></span>
+    </button>
 
 <?php require('analyticstracking.php');?>
 <div class="modal fade menuvideo" id="bootstrap-modal" role="dialog">
