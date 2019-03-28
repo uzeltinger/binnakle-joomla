@@ -355,33 +355,33 @@ $doc->addCustomTag('<meta property="og:description" content="Juego Binnakle" />'
   </section>
 
   <section class="combina">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-12">
           <h2 class="text-center binnakle-combina">BINAKLE COMBINA</h2>
         </div>
       </div>
     </div>
-    <div class="container combina-content">
+    <div class="container-fluid combina-content">
       <div class="row">
-        <div class="col-5 d-none d-md-block">
+        <div class="col-5 d-none d-xl-block">
           <p>Metodología Contrastada</p>
         </div>
-        <div class="col-2 d-none d-md-block">
+        <div class="col-2 d-none d-xl-block">
           <p class="text-center">+</p>
         </div>
-        <div class="col-5 d-none d-md-block">
+        <div class="col-5 d-none d-xl-block">
           <p>Beneficios de la Gamificación</p>
         </div>
       </div>
       <div class="row">
-        <div class="col-12 col-md-6">
-          <p class="text-center d-md-none">Metodología Contrastada</p>
+        <div class="col-12 col-xl-7">
+          <p class="text-center d-xl-none">Metodología Contrastada</p>
           <img class="img-fluid" src="images/funnel-innovacion-binnakle.png">
         </div>
-        <div class="col-12 col-md-6">
-          <p class="text-center d-md-none">+</p>
-          <p class="text-center d-md-none">Beneficios de la Gamificación</p>
+        <div class="col-12 col-xl-5">
+          <p class="text-center d-xl-none">+</p>
+          <p class="text-center d-xl-none">Beneficios de la Gamificación</p>
           <div class="image-combina-right"><img class="img-fluid" src="images/beneficios-gamificacion.png"></div>
           <div class="image-combina-right-bottom"><img class="img-fluid" src="images/logo_ic_.png"></div>
         </div>
