@@ -87,11 +87,27 @@ a {
     max-width: 55%;    
     line-height: 12px;
 }
-.link-juegos-mobile .link-juego-last {
+.nuestro-serius-game-mobile {
+    flex: 0 0 55%;
+    max-width: 55%;    
+    line-height: 12px;
+    position: relative;
+}
+.nuestro-serius-game-mobile.last {
     padding-left: 10px;
     flex: 0 0 45%;
     max-width: 45%;
 }
+
+
+
+
+
+
+
+
+
+
 a.link-juego{
     color: #9CB71E;
 }
@@ -994,8 +1010,8 @@ section.page.binnakle-mission-0, section.page.binnakle-the-expedition {
 }
 @media(max-width: 767px){
     .mission-0-header {
-        background: url(../images/mission0/header-mission-0-fondo-left.jpg) no-repeat top left;
-        min-height: 670px;
+        background: url(../images/mission0/header-mission-0-fondo-left-mobile.jpg) no-repeat top left;
+        min-height: 720px;
         background-size: auto;
         position: relative;
     }
@@ -1258,6 +1274,7 @@ margin-bottom: 80px;
 }
 .binnakle-the-expedition-logo img{
     margin: auto;
+    max-width: 230px;
 }
 .binnakle-the-expedition-texto {
     text-align: center;
@@ -1289,6 +1306,15 @@ margin-bottom: 80px;
 }
 .misiones-list {
     margin-top: 40px;
+}
+@media(max-width:768px){
+    .misiones-list {
+        margin-top: 0;
+    }
+    .misiones {
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
 }
 .mision .image {
     width: 100%; 
@@ -1329,20 +1355,32 @@ a.link-juego-theexpedition {
 .link-juego-theexpedition:hover + ul.serious-games-submenu {
     display: block;
 }
+.link-juego-theexpedition.opensubmenu + ul.serious-games-submenu {
+    display: block;
+}
 ul.serious-games-submenu:hover {
     display: block;
 }
 ul.serious-games-submenu {
     background: #fff;
     top: 95%;
-    margin-left: 15px;
+    left: auto;
+    right: 0;
+    padding:0;
+    border-radius: 0;
 }
 ul.serious-games-submenu li {
     margin-left: 0;
+    border-bottom: 1px solid rgba(0,0,0,.15);
 }
 ul.serious-games-submenu li a{
     padding-left: 10px;
     display: block;
+    height: 30px;    
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 30px;
 }
 ul.serious-games-submenu li a:hover{
     text-decoration: none;

@@ -125,13 +125,35 @@ $doc->addCustomTag('<meta property="og:description" content="Juego Binnakle" />'
                 <div class="red"><a href="#"><span class="fab fa-youtube"></span></a></div>
             </div>
             <div class="top-link-contacto"><a href="/contacto.html">CONTACTO</a></div>
-            <div class="link-juegos link-juegos-mobile">
-                <a class="link-juego <?php if(JRequest::getInt('Itemid') == 108){ echo ' active';} ?>" href="./binnakle-the-expedition.html">BINNAKLE<br>THE EXPEDITION</a>
-                <a class="link-juego link-juego-last <?php if(JRequest::getInt('Itemid') == 109){ echo ' active';} ?>" href="./binnakle-mission-0.html">BINNAKLE<br>MISSION 0</a>
+              <div class="link-juegos link-juegos-mobile">
+                <div class="nuestro-serius-game-mobile">
+                    <a class="juego_theexpedition_open_submenu link-juego <?php if(JRequest::getInt('Itemid') == 108){ echo ' active';} ?>" href="./binnakle-the-expedition.html">BINNAKLE<br>THE EXPEDITION</a>
+                        <ul class="serious-games-submenu dropdown-menu juego_theexpedition_submenu">
+                          <li class="nav-item item-112"><a href="/binnakle-the-expedition.html">Conocer</a></li>
+                          <li class="nav-item item-112"><a href="#">Comprar</a></li>
+                          <li class="nav-item item-112"><a href="#">Jugar</a></li>
+                        </ul>
+                </div>
+                <div class="nuestro-serius-game-mobile last">
+                  <a class="juego_mission0_open_submenu link-juego link-juego-last <?php if(JRequest::getInt('Itemid') == 109){ echo ' active';} ?>" href="./binnakle-mission-0.html">BINNAKLE<br>MISSION 0</a>
+                    <ul class="serious-games-submenu dropdown-menu juego_mission0_submenu">
+                      <li class="nav-item item-112"><a href="/binnakle-mission-0.html">Conocer</a></li>
+                      <li class="nav-item item-112"><a href="#">Comprar</a></li>
+                      <li class="nav-item item-112"><a href="#">Jugar</a></li>
+              </div>
             </div>
             <div class="link-juegos-tablet">
-                <a class="link-juego <?php if(JRequest::getInt('Itemid') == 108){ echo ' active';} ?>" href="./binnakle-the-expedition.html">BINNAKLE<br>THE EXPEDITION</a>
-                <a class="link-juego link-juego-last <?php if(JRequest::getInt('Itemid') == 109){ echo ' active';} ?>" href="./binnakle-mission-0.html">BINNAKLE<br>MISSION 0</a>
+                <a class="juego_theexpedition_open_submenu link-juego <?php if(JRequest::getInt('Itemid') == 108){ echo ' active';} ?>" href="./binnakle-the-expedition.html">BINNAKLE<br>THE EXPEDITION</a>
+                    <ul class="serious-games-submenu dropdown-menu juego_theexpedition_submenu">
+                      <li class="nav-item item-112"><a href="/binnakle-the-expedition.html">Conocer</a></li>
+                      <li class="nav-item item-112"><a href="#">Comprar</a></li>
+                      <li class="nav-item item-112"><a href="#">Jugar</a></li>
+                    </ul>
+                <a class="juego_mission0_open_submenu link-juego link-juego-last <?php if(JRequest::getInt('Itemid') == 109){ echo ' active';} ?>" href="./binnakle-mission-0.html">BINNAKLE<br>MISSION 0</a>
+                    <ul class="serious-games-submenu dropdown-menu juego_mission0_submenu">
+                      <li class="nav-item item-112"><a href="/binnakle-mission-0.html">Conocer</a></li>
+                      <li class="nav-item item-112"><a href="#">Comprar</a></li>
+                      <li class="nav-item item-112"><a href="#">Jugar</a></li>
             </div>
             <div class="link-juegos-descktop">
                 <div class="nuestros-serius-games">NUESTROS <br>SERIOUS GAMES:</div>
@@ -139,7 +161,7 @@ $doc->addCustomTag('<meta property="og:description" content="Juego Binnakle" />'
                 <div class="nuestro-serius-game">
                     <a class="link-juego link-juego-theexpedition <?php if(JRequest::getInt('Itemid') == 108){ echo ' active';} ?>" href="./binnakle-the-expedition.html">BINNAKLE <br>THE EXPEDITION</a>
                     <ul class="serious-games-submenu dropdown-menu">
-                      <li class="nav-item item-112"><a href="#">Conocer</a></li>
+                      <li class="nav-item item-112"><a href="/binnakle-the-expedition.html">Conocer</a></li>
                       <li class="nav-item item-112"><a href="#">Comprar</a></li>
                       <li class="nav-item item-112"><a href="#">Jugar</a></li>
                     </ul>
@@ -147,7 +169,7 @@ $doc->addCustomTag('<meta property="og:description" content="Juego Binnakle" />'
                 <div class="nuestro-serius-game">
                     <a class="link-juego link-juego-last link-juego-theexpedition <?php if(JRequest::getInt('Itemid') == 109){ echo ' active';} ?>" href="/binnakle-mission-0.html">BINNAKLE <br>MISSION 0</a>
                     <ul class="serious-games-submenu dropdown-menu">
-                      <li class="nav-item item-112"><a href="#">Conocer</a></li>
+                      <li class="nav-item item-112"><a href="/binnakle-mission-0.html">Conocer</a></li>
                       <li class="nav-item item-112"><a href="#">Comprar</a></li>
                       <li class="nav-item item-112"><a href="#">Jugar</a></li>
                     </ul>

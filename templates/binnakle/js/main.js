@@ -32,3 +32,20 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+jQuery( document ).ready(function() {
+    jQuery(".juego_theexpedition_open_submenu").click(function(event ) {         
+        jQuery(".juego_mission0_submenu").css("display","none"); 
+        console.log("juego_theexpedition_open_submenu");
+        event.preventDefault();
+        jQuery(this).siblings(".juego_theexpedition_submenu").toggle();
+        //jQuery(".juego_theexpedition_submenu").css("display","block");        
+    });    
+    jQuery(".juego_mission0_open_submenu").click(function(event ) { 
+        jQuery(".juego_theexpedition_submenu").css("display","none"); 
+        console.log("juego_mission0_open_submenu");
+        event.preventDefault();
+        jQuery(this).siblings(".juego_mission0_submenu").toggle();
+        //jQuery(".juego_mission0_submenu").css("display","block");        
+    });
+});
