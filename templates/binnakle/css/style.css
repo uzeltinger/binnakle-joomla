@@ -764,7 +764,7 @@ p.texto {
 }
 @media(min-width:768px){
     .listado-paises .listado-pais {
-        min-height: 360px;
+        min-height: 230px;
     }
 }
 /*  noticias    */
@@ -929,7 +929,7 @@ section.page.contacto {
 }
 @media(max-width: 768px){
     .contact-form-right {
-        padding: 20px 0 40px 0;
+        padding: 20px 0 60px 0;
     }
 }
 .textarea-comentario {
@@ -1307,6 +1307,9 @@ margin-bottom: 80px;
 .misiones-list {
     margin-top: 40px;
 }
+.misiones-list .noppading {
+    padding: 0!important;
+}
 @media(max-width:768px){
     .misiones-list {
         margin-top: 0;
@@ -1420,7 +1423,7 @@ ul.serious-games-submenu li:hover {
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: #96AF28;
+    background: rgb(150, 175, 40, 0.8);
     color: white;
     cursor: pointer;
     padding: 15px 20px;
