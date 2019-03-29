@@ -762,11 +762,7 @@ p.texto {
 .listado-paises .listado-pais p.email{
     font-size: 1.1rem;
 }
-@media(min-width:768px){
-    .listado-paises .listado-pais {
-        min-height: 230px;
-    }
-}
+
 /*  noticias    */
 
 .youtube-nuestro-canal {
