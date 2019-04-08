@@ -72,9 +72,13 @@ a {
     margin-bottom: 10px;
 }
 .top-link-contacto a {
-    color: #000;
+    color: rgba(0,0,0,.5);
     padding: 5px;
     line-height: 25px;
+}
+.top-link-contacto a:hover {
+    color: #000;
+    text-decoration: none;
 }
 .link-juegos-mobile .link-juegos {
     display: flex;
@@ -166,6 +170,10 @@ header .container-menu-all {
 }
 .navbar-light .navbar-nav .active>a {
     color: #96AF28;
+}
+.navbar-light .navbar-nav a:hover {
+    text-decoration: none;
+    color: #000;
 }
 @media (max-width: 767px){
     .link-juegos-descktop {
@@ -283,6 +291,7 @@ header .container-menu-all {
 }
 .dropdownover img {
     width: 25px;
+    float: right;
 }
 
 .nav-item.item-111 ul.dropdown-menu:hover{
@@ -318,14 +327,14 @@ section.perfil-carousel .slide-fondo {
     bottom: 70px;
 }
 .carousel-caption {
-    background: rgb(150, 175, 40, 0.8);
+    background: #96af28cc;
     color: #fff;
     padding: 1rem;
     font-size: 1.2rem;
 }
 @media(min-width: 768px){
     .carousel-caption {
-        background: rgb(150, 175, 40, 0.8);
+        background: #96af28cc;
         color: #fff;
         padding: 1rem;
         font-size: 2rem;
@@ -379,6 +388,7 @@ section.resultados {
 }
 .binnakle-combina {
     margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 .combina {
     margin-top: 8rem;
@@ -391,27 +401,36 @@ section.resultados {
 .combina .combina-content {
     background: #EAE7C5;
     padding: 1rem;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 .image-combina-right {
     width: 100%;
-    float: right;
+    vertical-align: middle;
+    text-align: center;
+    align-items: center;
 }
-.image-combina-right-bottom {
-    float: right;
-    margin-right: 30px;
-    max-width: 150px;
+.image-combina-right img{
+    vertical-align: middle;
+    margin: auto;
+}
+.valign-center {
+    align-items: center;
+}
+
+@media (min-width: 1280px){
+    .image-combina-right img{
+        max-width: 400px;
+    }
 }
 .clientes {
     margin-top: 8rem;
-    margin-bottom: 8rem;
+    margin-bottom: 1rem;
 }
 @media (min-width: 767px){
     .col-md-1de10 {
-        -ms-flex: 0 0 10%;
-        flex: 0 0 10%;
-        max-width: 10%;
+        -ms-flex: 0 0 11%;
+        flex: 0 0 11%;
+        max-width: 11%;
     }
 }
 @media (max-width: 767px){
@@ -524,6 +543,15 @@ section.home-footer h2.footer-title {
 .home-footer .footer-button.orange {
     background:#D49A0A;
     border-radius: 4px;
+}
+.home-footer .footer-button.green:hover {
+    text-decoration: none;
+    background: #9CB71E;
+}
+.home-footer .footer-button.orange:hover {
+    text-decoration: none; 
+    background: #966d08;
+
 }
 .footer-info {
     margin-top: 3rem;
@@ -678,10 +706,10 @@ font-weight: 600;
     font-weight: 600;
 }
 #carouselClientesHome {
-    min-height: 400px;
+    min-height: 350px;
 }
 #carouselClientesHome .carousel-inner {
-    min-height: 400px;
+    min-height: 350px;
 }
 .clientes-carousel .carousel-control .fa{
     color: #000;
@@ -705,7 +733,7 @@ font-weight: 600;
 /*  quienes somos   */
 
 .row-paises {
-    background: #BF9034;
+    background: #96AF28;
     padding: 1rem;
     color: #fff;
     font-size: 1.3rem;
@@ -1050,7 +1078,11 @@ section.page.binnakle-mission-0, section.page.binnakle-the-expedition {
     padding: .8rem 1rem;
     border-radius: 4px;
 }
-
+.button-green:hover {
+    text-decoration: none;
+    background: #65790f;
+    color: #fff;
+}
 .div-boton-presentacion{
     display: block;
     margin-top: 30px;
@@ -1066,11 +1098,16 @@ section.page.binnakle-mission-0, section.page.binnakle-the-expedition {
     border-radius: 30px;
     display: inline-block;
 }
+.boton-presentacion:hover {
+    text-decoration: none;
+    background: #96AF28;
+    color: #fff;
+}
 .row.v-center {
     align-items: center;
     /*height: 100%;*/
 }
-.image-left {
+.image-left img{
     padding: 0 40px;
     max-width: 300px;
     margin: auto;
@@ -1370,7 +1407,7 @@ ul.serious-games-submenu {
 }
 ul.serious-games-submenu li {
     margin-left: 0;
-    border-bottom: 1px solid rgba(0,0,0,.15);
+    border-bottom: 1px solid #fff;
 }
 ul.serious-games-submenu li a{
     padding-left: 10px;
@@ -1380,13 +1417,23 @@ ul.serious-games-submenu li a{
     text-transform: uppercase;
     font-weight: 400;
     line-height: 30px;
+    color: #fff;
+}
+ul.serious-games-submenu li {    
+    background: #9CB71E;
+}
+ul.serious-games-submenu li.item-conocer {    
+    background: #D49A0A;
+}
+ul.serious-games-submenu li:hover {    
+    background: #65790f;
+}
+ul.serious-games-submenu li.item-conocer:hover {    
+    background: #966d08;
 }
 ul.serious-games-submenu li a:hover{
     text-decoration: none;
     color: #fff;
-}
-ul.serious-games-submenu li:hover {    
-    background: #9CB71E;
 }
 .las-misiones {
     padding-left: 15px;
@@ -1419,7 +1466,7 @@ ul.serious-games-submenu li:hover {
     font-size: 18px;
     border: none;
     outline: none;
-    background: rgb(150, 175, 40, 0.8);
+    background: #96af28cc;
     color: white;
     cursor: pointer;
     padding: 15px 20px;
@@ -1433,3 +1480,33 @@ ul.serious-games-submenu li:hover {
   .goTop:hover {
     background-color: #555;
   }
+
+h2.color-verde {
+    color: #96AF28;
+}
+.ayuda-a-empresas {
+    margin-top: 3rem;
+}
+.metodologia-contrastada {
+    text-align: center;
+}
+.oblique {
+    font-style: oblique;
+}
+.col-sm-15 {    
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 12.5%;
+    flex: 0 0 12.5%;
+    max-width: 12.5%;
+}
+
+.binnakle-ayuda .coltexto {
+    max-width: 300px;
+}
+.ayuda-a-empresas {
+    text-align: center;
+}
+.ayuda-a-empresas img {
+    max-width: 800px;
+    margin: auto;
+}
