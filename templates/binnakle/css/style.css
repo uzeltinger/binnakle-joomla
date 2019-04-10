@@ -343,12 +343,12 @@ section.perfil-carousel .slide-fondo {
         margin-bottom: 0;
     }
     section.perfil-carousel .slide-fondo {
-        height: 333px;
+        height: 383px;
     }
 }
 @media(min-width: 1280px){
     section.perfil-carousel .slide-fondo {
-        height: 333px;
+        height: 383px;
     }
 }
 
@@ -360,6 +360,8 @@ section.resultados {
 }
 section.resultados h2{
      margin-bottom: 0;
+     font-size: 18px;
+     font-weight: 600;
 }
 .resultados .resultados-list {
     width: 100%;
