@@ -809,7 +809,7 @@ p.texto {
     overflow: hidden;
     z-index: 1;
     letter-spacing: 0;
-    box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.36);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.36);
     transition: .15s ease-out all;
     backface-visibility: hidden;
     margin-bottom: 2rem;
@@ -1509,4 +1509,20 @@ h2.color-verde {
 .ayuda-a-empresas img {
     max-width: 800px;
     margin: auto;
+}
+
+.the-expedition-header {
+    text-align: center;
+}
+.binnakle-the-expedition-texto {
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 30px;
+}
+.binnakle-the-expedition-texto img.awards {
+    max-width: 100px;
+}
+.nopadding {
+    padding: 0;
 }
