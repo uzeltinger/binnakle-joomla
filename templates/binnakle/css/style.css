@@ -348,7 +348,7 @@ section.perfil-carousel .slide-fondo {
 }
 @media(min-width: 1280px){
     section.perfil-carousel .slide-fondo {
-        height: 500px;
+        height: 333px;
     }
 }
 
@@ -356,7 +356,10 @@ section.perfil-carousel .slide-fondo {
 
 section.resultados {
     width: 100%;
-    margin-top: 8rem;
+    margin-top: 1rem;
+}
+section.resultados h2{
+     margin-bottom: 0;
 }
 .resultados .resultados-list {
     width: 100%;
@@ -1493,13 +1496,14 @@ h2.color-verde {
 .oblique {
     font-style: oblique;
 }
-.col-sm-15 {    
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 12.5%;
-    flex: 0 0 12.5%;
-    max-width: 12.5%;
+@media(min-width:992px){
+    .col-sm-15 {    
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 12.5%;
+        flex: 0 0 12.5%;
+        max-width: 12.5%;
+    }
 }
-
 .binnakle-ayuda .coltexto {
     max-width: 300px;
 }

@@ -336,9 +336,8 @@ if (JRequest::getInt('Itemid') == 101) {
                   <p>AÑADIR VALOR A EVENTOS CORPORATIVOS Y HACKATONES DE INNOVACIÓN</p>
                 </div>
               </div>
-              <div class="col-12 col-sm-15"></div>
-            </div>
-            <div class="row">
+              <div class="col-12 col-sm-15 d-none d-sm-block"></div>
+            
               <div class="resultado col-6 col-sm-3 col-lg-3">
                 <div class="imagen"><img src="images/iconos/icon-innovacion.png"></div>
                 <div class="bajada">
