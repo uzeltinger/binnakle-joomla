@@ -200,9 +200,6 @@
                     <img class="img-responsive" src="<?php echo htmlspecialchars($images->image_intro); ?>">
                 </a>
             </div>
-            <div class="epigrafe">
-                <?php echo $article->title; ?>
-            </div>
         </div>
     </div>
 <?php } else if ($modalLinkExterno != "") { ?>
@@ -213,9 +210,6 @@
                 <a class="external-link" href="<?php echo $modalLinkExterno ?>" target="blank_">
                     <img class="img-responsive" src="<?php echo htmlspecialchars($images->image_intro); ?>">               
                 </a>
-            </div>
-            <div class="epigrafe">
-                <?php echo $article->title; ?>
             </div>
         </div>
     </div>
@@ -241,10 +235,7 @@
                 <a href="">
                     <img class="img-responsive" src="<?php echo htmlspecialchars($images->image_intro); ?>">
                 </a>
-            </div>
-            <div class="epigrafe">
-                <?php echo $article->title; ?>
-            </div>    
+            </div> 
         </div>
     </div>
 <?php } else if ($modalLink != "") { ?>
@@ -254,9 +245,6 @@
                 <a href="">
                     <img class="img-responsive" src="<?php echo htmlspecialchars($images->image_intro); ?>">
                 </a>
-            </div>
-            <div class="epigrafe">
-                <?php echo $article->title; ?>
             </div>
         </div>
     </div>

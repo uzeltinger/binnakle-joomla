@@ -137,6 +137,21 @@
 .externalLink {
     background: url('/images/link-binnakle-100.png');
 }
+/*
+.a-externalLink {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -42px;
+    margin-top: -30px;
+    z-index: 1080;
+    cursor: pointer;
+}
+.a-externalLink {
+    background: url('/images/link-binnakle-100.png');
+}*/
    </style> 
 
 
@@ -164,7 +179,7 @@
                 $images  = json_decode($article->images);
                 if (isset($images->image_intro) && !empty($images->image_intro)) :
                     $articleImage = '<img src="'.htmlspecialchars($images->image_intro).'" />';
-                    $modalLink = JURI::base().$articleImage;
+                    $modalLink = JURI::base().htmlspecialchars($images->image_intro);
                     $class = "image";
                 endif;                
                 if ($urls && (!empty($urls->urla))) :
@@ -204,11 +219,11 @@
     </div>
 <?php } else if ($modalLinkExterno != "") { ?>
     
-    <div class="col-12 col-sm-6 col-md-4" data-iframe="false" data-externalLink="<?php echo $modalLinkExterno ?>" data-src="<?php echo htmlspecialchars($images->image_intro); ?>" data-sub-html="<h4><?php echo $article->title; ?></p>">
+    <div class="col-12 col-sm-6 col-md-4" data-iframe="false" data-externalLink="<?php echo $modalLinkExterno ?>" data-src="<?php echo htmlspecialchars($images->image_intro); ?>" data-sub-html="<p><?php echo $article->title; ?></p>">
         <div class="noticia">
             <div class="contenido">
                 <a class="external-link" href="<?php echo $modalLinkExterno ?>" target="blank_">
-                    <img class="img-responsive" src="<?php echo htmlspecialchars($images->image_intro); ?>">               
+                    <img class="img-responsive" src="<?php echo htmlspecialchars($images->image_intro); ?>">
                 </a>
             </div>
             <div class="epigrafe">
@@ -245,7 +260,7 @@
         </div>
     </div>
 <?php } else if ($modalLink != "") { ?>
-    <div class="col-12 col-sm-6 col-md-4" data-src="<?php echo htmlspecialchars($images->image_intro); ?>" data-sub-html="<h4><?php echo $article->title; ?></p>">
+    <div class="col-12 col-sm-6 col-md-4" data-src="<?php echo $modalLink; ?>" data-sub-html="<h4><?php echo $article->title; ?></p>">
         <div class="noticia">
             <div class="contenido">
                 <a href="">
@@ -270,18 +285,23 @@ endforeach;
 <script type="text/javascript">
     jQuery(document).ready(function () {
         jQuery('#videos').lightGallery({
-      loadYoutubeThumbnail: true,
-      youtubeThumbSize: 'default',
-    iframeMaxWidth: '80%'});    
-    });
+            loadYoutubeThumbnail: true,
+            youtubeThumbSize: 'default',
+            iframeMaxWidth: '80%'
+        });  
         
-    jQuery(".external-link").click(function(event ) {  
+    jQuery(".a-external-link").click(function(event ) {  
+        console.log("link",event);
         event.preventDefault();
         var link = jQuery(event.currentTarget).attr("href");
         console.log("link",link);
         window.open(link, '_blank');
+        return false;
         jQuery('#videos').closeGallery();
     });
+
+});
+
 </script>
 
 

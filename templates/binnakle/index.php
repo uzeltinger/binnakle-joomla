@@ -310,7 +310,7 @@ if (JRequest::getInt('Itemid') == 101) {
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <h2 class="text-center binnakle-combina">LOS SERIOUS GAMES DE BINNAKLE AYUDAN A LAS EMPRESAS A:</h2>
+              <h2 class="text-center binnakle-combina titulo-seccion">LOS SERIOUS GAMES DE BINNAKLE AYUDAN A LAS EMPRESAS A:</h2>
             </div>
           </div>
         </div>
@@ -373,28 +373,30 @@ if (JRequest::getInt('Itemid') == 101) {
         <div class="container-fluid combina-content">
           <div class="row">
             <div class="col-12">
-              <h2 class="text-center binnakle-combina">BINNAKLE COMBINA</h2>
+              <h2 class="text-center binnakle-combina titulo-seccion">BINNAKLE COMBINA</h2>
             </div>
           </div>
           <div class="row">
-            <div class="col-5 d-none d-xl-block">
+            <div class="col-5 d-none d-lg-block">
               <p>Metodología Contrastada</p>
             </div>
-            <div class="col-2 d-none d-xl-block">
+            <div class="col-2 d-none d-lg-block">
               <p class="text-center">+</p>
             </div>
-            <div class="col-5 d-none d-xl-block">
+            <div class="col-5 d-none d-lg-block">
               <p>Beneficios de la Gamificación</p>
             </div>
           </div>
           <div class="row valign-center">
-            <div class="col-12 col-xl-7">
-              <p class="text-center d-xl-none">Metodología Contrastada</p>
+            <div class="col-12 col-lg-7 col-xl-6">
+              <p class="text-center d-lg-none">Metodología Contrastada</p>
+              <div class="image-combina-left">
               <img class="img-fluid" src="images/funnel-innovacion-binnakle.png">
+              </div>
             </div>
-            <div class="col-12 col-xl-5">
-              <p class="text-center d-xl-none">+</p>
-              <p class="text-center d-xl-none">Beneficios de la Gamificación</p>
+            <div class="col-12 col-lg-5 col-xl-6">
+              <p class="text-center d-lg-none">+</p>
+              <p class="text-center d-lg-none">Beneficios de la Gamificación</p>
               <div class="image-combina-right"><img class="img-fluid" src="images/beneficios-gamificacion.png"></div>
               
             </div>
@@ -405,7 +407,7 @@ if (JRequest::getInt('Itemid') == 101) {
 
 
       <section class="home-footer">
-        <h2 class="text-center footer-title">NUESTROS SERIOUS GAMES</h2>
+        <h2 class="text-center footer-title titulo-seccion">NUESTROS SERIOUS GAMES</h2>
 
         <div class="footer-juegos-mobile d-lg-none">
           <div class="container-fluid container-juego-left">
@@ -536,7 +538,7 @@ if (JRequest::getInt('Itemid') == 101) {
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <h2 class="text-center">NUESTROS CLIENTES DICEN</h2>
+              <h2 class="text-center titulo-seccion">NUESTROS CLIENTES DICEN</h2>
             </div>
           </div>
           <div class="clientes-carousel">
@@ -564,7 +566,7 @@ if (JRequest::getInt('Itemid') == 101) {
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <h2 class="text-center">CONTACTA CON NOSOTROS</h2>
+              <h2 class="text-center titulo-seccion">CONTACTA CON NOSOTROS</h2>
             </div>
           </div>
         </div>

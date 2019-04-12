@@ -206,7 +206,6 @@ header .container-menu-all {
     }
     .nav-item {
         height: 40px;
-        padding-top: 12px;
     }
 }
 
@@ -418,13 +417,19 @@ section.resultados h2{
     vertical-align: middle;
     margin: auto;
 }
+.image-combina-left {
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    align-items: center;
+}
 .valign-center {
     align-items: center;
 }
 
 @media (min-width: 1280px){
     .image-combina-right img{
-        max-width: 400px;
+        /*max-width: 400px;*/
     }
 }
 .clientes {
@@ -821,7 +826,7 @@ p.texto {
 
 }
 .noticias .noticia .contenido {
-    padding: 18px 23px 0px;
+    padding: 18px;
 }
 .noticias .noticia img {
     width: 100%;
@@ -1531,4 +1536,55 @@ h2.color-verde {
 }
 .nopadding {
     padding: 0;
+}
+.titulo-seccion {
+    font-size: 18px;
+    font-weight: 600;
+}
+.sombra-mobile {/*
+    width: 100%;    
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;*/
+}
+@media (max-width: 577px){
+    .navbar ul{
+        box-shadow: 0px 6px 5px -5px rgb(173, 169, 169) inset;
+        padding-top: 15px;
+    }
+    .navbar ul li {
+        border-bottom: 1px solid #ccc;
+    }
+    .navbar ul li:last-child {
+        border: none;
+    }
+    .navbar ul li a {
+        display: block;
+        line-height: 40px;
+        padding-left: 10px;
+    }
+    .navbar ul li a:hover {
+        background: #ccc;
+    }
+    ul.serious-games-submenu li a{
+        padding-left: 0;
+        line-height: 40px;
+    }
+    ul.serious-games-submenu li {  
+        text-align: center;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        align-items: start;
+    }
+    .carousel-control-next i, .carousel-control-prev i{
+        margin-top: 50px;
+    }
 }
